@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>News portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <section>
+            <nav class="navbar">
+                <div class="nav-logo">
+                    <button class="btn btn-primary">News</button>
+                    <h5>portal</h5>
+                </div>
+                    <ul class="nav-list">
+                        <li><a href="#" id="all-news" class="nav-link">News</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="#" class="nav-link"><img src="me.jpg" class="rounded-circle"></a></li>
+                    </ul>
+            </nav>
+        </section>
+    
+        <section>
+            <ul id="items"> </ul>
+        </section>
+    
+        <section>
+            <div id="heading"> </div>
+        </section>
+
+        <section>
+            <div class="trending">
+                <div class="pick">
+                    <button class="up-btn">Sort by view:</button>
+                    <button class="down-btn">Default <i class="fa-sharp fa-solid fa-angle-down"></i></button>
+                </div>
+                <div class="another">
+                    <button class="btn btn-primary">Today's pick</button>
+                    <button class="btn2">Trending</button>
+                </div>
+            </div>
+        </section>
+    
+        <section id="load-spinner" class="d-none">
+            <div class="d-flex justify-content-center" style="height: 400px">
+                <div class="spinner-border text-success" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+        </section>
+    
+        <section>
+            <div id="card-container"> </div>
+        </section>
+
+    </div>
+
+    <script src="portal.js"> </script>
+</body>
+</html>

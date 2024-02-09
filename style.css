@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(247, 243, 243);
+    padding: 20px;
+}
+
+.navbar{
+    border-bottom: 2px solid rgb(158, 157, 157);
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-left: 3rem;
+}
+
+.nav-logo h5{
+    margin-left: 8px; 
+}
+
+#all-news{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.active{
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 3rem;
+    margin-bottom: 0;
+}
+
+.nav-link{
+    margin: 15px;
+    text-decoration: none;
+}
+
+.nav-link img{
+    width: 30px;
+}
+
+#heading{
+    margin: 2rem;
+    background-color: white;
+    padding: 3px 5px;
+}
+
+#items{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+
+#card-container{
+    border: none;
+}
+
+.row{
+    width: 100%;
+    box-shadow: 3px 1px 8px 1px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 1rem;
+}
+
+#author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.trending{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.up-btn{
+    border: none;
+    font-weight: bold;
+}
+
+.down-btn{
+    border: none;
+    margin-left: 20px;
+    opacity: .5;
+}
+
+.btn2{
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: blue;
+    padding: 4px 10px;
+}
+
+.author-part{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-body p{
+    opacity: .7;
+}
+
+#author img{
+    width: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#thumble{
+    height: 250px;
+}
+
+#view{
+    font-size: small;
+}
+
+.icon{
+    color:blue;
+}
+
+#blog{
+    background-color: rgb(216, 217, 219);
+}
+
+#container-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid blue;
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.first-text{
+    width: 15%;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
